@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/search_blood"
+    tools:context="com.example.dharma.bloodbank.search">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Search donor"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requested blood group"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/search_b_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:layout_marginTop="70dp"
+
+        android:layout_marginLeft="140dp"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:id="@+id/search_search"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:background="#00ffffff"
+        android:textSize="35dp"
+        android:text="search"/>
+
+</LinearLayout>
